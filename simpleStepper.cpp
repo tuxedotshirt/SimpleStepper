@@ -28,7 +28,7 @@ Public Function
 Rotates motor clockwise.
 Input variables:  
 			steps: the number of steps you would like the motor to take.
-			stepDelay: the time delay between steps. Must be > 0. 1 is fastest roation, larger number is slower roation.
+			stepDelay: the time delay between steps. Must be > 0. 1 is fastest rotation, larger number is slower roation.
 Output: none
 */
 void simpleStepper::forward(int steps, int stepDelay) {
